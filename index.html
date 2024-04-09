@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve</p>
+    <form action="***" id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">
+          Name
+          <input id="name" type="text" placeholder="Enter your name" required
+        /></label>
+        <label id="email-label" for="email"
+          >Email<input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+        </label>
+        <label id="number-label" for="number"
+          >Age (optional)<input
+            id="number"
+            type="number"
+            min="12"
+            max="120"
+            placeholder="Age"
+        /></label>
+        <label>
+          Which option describes you most?
+          <select id="dropdown">
+            <option>(choose one)</option>
+            <option>Un peu dgazouz</option>
+            <option>Un peu dlimonade</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Would you recommend web development to a friend?</legend>
+        <label id="multiple"
+          ><input value="yes" name="recommend" type="radio" checked /> Yes
+        </label>
+        <label id="multiple"
+          ><input value="no" name="recommend" type="radio" /> No
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Where would you like to improve ?</legend>
+        <label id="multiple"
+          ><input value="front-end" type="checkbox" /> Front End
+        </label>
+        <label id="multiple"
+          ><input value="back-end" type="checkbox" /> Back End
+        </label>
+      </fieldset>
+      <fieldset>
+        <label
+          >Any comment?<textarea
+            placeholder="comment here"
+            rows="4"
+            cols="50"
+          ></textarea>
+        </label>
+      </fieldset>
+
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

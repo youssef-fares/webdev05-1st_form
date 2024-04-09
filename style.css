@@ -1,0 +1,66 @@
+input,
+textarea {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline;
+}
+
+fieldset {
+  margin: 1.2em auto;
+  color: antiquewhite;
+  /* border-right:0;
+  border-left: 0;
+  border-top: 0;
+  padding-left: 0;
+  border-bottom: 1px dashed; */
+}
+
+fieldset:last-of-type {
+  border: 0;
+  padding-left: 0;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgb(17, 67, 133);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+p {
+  text-align: center;
+  color: antiquewhite;
+}
+
+button {
+  height: 2em;
+  background-color: rgb(0, 50, 133);
+  min-width: 100px;
+  width: 25%;
+  border: 1px solid;
+  color: antiquewhite;
+  font-weight: 800;
+  font-size: 1.2rem;
+  margin: 0 auto;
+}
+
+label,
+legend {
+  font-weight: bold;
+}
+
+#multiple {
+  margin-right: 1em;
+}
+
+#name,
+#email,
+#number,
+#dropdown {
+  height: 2em;
+}
