@@ -25,7 +25,9 @@ fieldset:last-of-type {
 }
 
 body {
-  width: 80%;
+  width: 50%;
+  min-width: 250px;
+  max-width: 650px;
   margin: 0 auto;
   background-color: rgb(17, 67, 133);
   font-family: Arial, Helvetica, sans-serif;
@@ -63,4 +65,8 @@ legend {
 #number,
 #dropdown {
   height: 2em;
+}
+
+textarea {
+  width: 100%;
 }
